@@ -61,6 +61,31 @@ input.search-bar {
     width: calc(100% - 100px);
 }
 
-h1.temp {
+h1.temperature {
     margin: 0;
+    font-size: 200%;
+    margin-bottom: .5em;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather.loading {
+    visibility: hidden;
+}
+
+.weather.loading::after {
+    visibility: visible;
+    content: "Chargement ...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
 }
