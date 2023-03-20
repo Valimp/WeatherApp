@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+    font-size: 120%;
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: .5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7272722b;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+    cursor: pointer;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: .4em 1em;
+    border-radius: 24px;
+    background-color: #2c2c2c2b;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+h1.temp {
+    margin: 0;
+}
